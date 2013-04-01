@@ -7,7 +7,7 @@ gem 'rails', '3.2.13'
 
 
 gem 'sqlite3-ruby', '1.2.5', :group => :development
-gem 'sqlite3'
+#gem 'sqlite3'
 
 # Added this coz rake migrate db threw an error that pg gem is not part of bundle install :(
 gem 'pg'
