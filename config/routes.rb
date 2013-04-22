@@ -1,9 +1,11 @@
 SampleApp::Application.routes.draw do
 
-  get "users/new"
-
 root to: 'pages#home'
 
+
+ #get "users/new"
+  match '/users/new', to: 'users#new'
+  match 'signup', to: 'users#new'
 
 # get "pages/home"
   match '/pages/home', to: 'pages#home'
